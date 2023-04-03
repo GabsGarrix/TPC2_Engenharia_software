@@ -1,0 +1,82 @@
+.numeric-input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+    background-color: whitesmoke;
+    width: 30%;
+  }
+  form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(211, 211, 211);
+        margin:10px 25% ;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        
+        
+  }
+  
+  .numeric-input {
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .div_of_button button {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    background-color: green;
+    margin-bottom: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  .submit-button:hover {
+    background-color: greenyellow;
+  }
+  .numeric-input-form label {
+    font-weight: bold;
+    margin-right: 0;
+  }
+
+  .new-disciplina__controls {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .new-disciplina__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .new-disciplina__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .new-disciplina__actions {
+    text-align: right;
+  }
+
+ 
+  

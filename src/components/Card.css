@@ -1,0 +1,9 @@
+.card_container{
+    display: flex;
+    align-items: flex-start;
+    background-color: green;
+    
+    color: white;
+    font-size: large;
+}
+
